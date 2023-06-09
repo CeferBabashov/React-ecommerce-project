@@ -1,0 +1,76 @@
+.contact_top_section{
+    text-align: center;background-color: #F3F4F4;padding: 50px 0 60px 0;
+
+}
+.contact_main_part h2::selection , .contact_main_part address::selection {
+    /* font-family: Helvetica Neue,Raleway,sans-serif */
+    background-color: #EBD072;color: #fff;
+}
+.contact_main_part{
+    padding: 50px 0;
+}
+.contact_main_part span{
+    color: #383C40;
+}
+/* contact hr */
+.contact_main_part hr{
+    margin: 25px 0;
+}
+.contact_top_section h4::selection{
+    background-color: #EBD072;color: #fff;
+}
+.contact_top_section_h1{
+    font-weight: 100;font-size: 55px;color: #383C40;
+}
+.contact_top_section_h4{
+    color: #A4A7A9;font-weight: 100;
+}
+/* restraunt_info */
+.restaurant_info h6{
+    color: #BBC4C6;
+    /* background-image: url('../../images/About/sign.svg'); */
+}
+/* contact_social */
+.contact_social a{
+    background-color: #A4A7A9;
+}
+.contact_social .mobile_social{
+    text-align: left;
+}
+/* restaurant_info */
+.restaurant_info{
+    display: grid;
+    grid-template-columns: 50% 50%;gap: 10px;
+}
+/* Loader */
+.ring_loader{
+        justify-content: center;display: flex;margin-top: 30vh;min-height: 700px;
+}
+/* Responsive */
+@media screen and (max-width : 992px){
+    .restaurant_info{
+        display: grid;
+        grid-template-columns: 100%;gap: 10px;text-align: center;
+    }
+    .contact_main_part{
+        text-align: center;
+    }
+    .contact_social .mobile_social{
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 768px){
+    .contact_main_part .row{
+        flex-direction: column;
+    }
+    .contact_main_part_left_side{
+        width: 100%;
+        margin-bottom: 50px;
+        padding-left: 0 !important
+    }
+    .contact_main_part_right_side{
+        width: 100%;
+        padding:0 50px !important
+    }
+}
+

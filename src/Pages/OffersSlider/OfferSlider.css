@@ -1,0 +1,90 @@
+/* special_offers_slider_section */
+.special_offers_carousel_item_content {
+    bottom: 0 !important;
+    right: 50px !important;
+    width: 600px !important;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    height: 350px;
+    padding: 40px;
+}
+.container{
+    padding: 0 !important;
+}
+.special_offers_slider_section{
+    background-color: #F3F4F4;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+    position: relative;
+}
+.special_offers_slider_section .carousel_item_bottom{
+    margin-top: 40px;
+}
+.special_offers_slider_section .carousel-item div{
+    align-items: baseline;
+}
+.special_offers_slider_section .carousel_item_bottom div p{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.special_offers_slider_section .carousel-item .carousel_check_icon{
+    color: green;
+    font-size: 25px;
+}
+.special_offers_slider_section .carousel-item .carousel_x_icon{
+    color :#6c6e6e
+}
+.special_offers_top_content h1{
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.special_offers_slider_section .carousel-control-prev {
+    background-color: transparent;
+    position: absolute !important;
+    left: -50px !important;
+    opacity: 0;
+}
+.special_offers_slider_section .carousel-control-prev-icon{
+        filter: brightness(0); 
+}
+.special_offers_slider_section .carousel-control-next{
+    background-color: transparent;
+    position: absolute !important;
+    right: 0;
+    left: auto;
+    opacity: 0;
+}
+.special_offers_slider_section:hover .carousel-control-prev , .special_offers_slider_section:hover .carousel-control-next{
+    opacity: 1;
+}
+.special_offers_slider_section .carousel-control-next-icon{
+        filter: brightness(0);
+}
+.special_offers_slider_section .carousel-control-next:hover , .specail_offers_slider_section .carousel-control-prev:hover{
+    padding: 0;
+}
+
+@media screen and (max-width : 1200px){
+   .special_offers_slider_section .special_offers_carousel_item_content{
+        width: 50% !important;
+        position: absolute !important;
+        right: 0 !important;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .special_offers_slider_section  .special_offers_carousel_item_content{
+        width: 90% !important;
+        margin-top: -150px;
+        position: relative !important;
+        transform: translateX(70px) !important
+    }
+    .special_offers_slider_section .carousel-item{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}

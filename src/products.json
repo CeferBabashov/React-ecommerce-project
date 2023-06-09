@@ -1,0 +1,241 @@
+   [
+    {
+      "id" : 1,
+      "name": "Beef Burger",
+      "description": "Beef, Cheese, Potato, Onion, Fries",
+      "price": "$9.00",
+      "size": [
+        {
+          "size_name": "Normal",
+          "size_weight": "200g",
+          "size_price": "$9.00"
+        },
+        {
+          "size_name": "Double",
+          "size_weight": "400g",
+          "size_price": "$12.00"
+        }
+      ],
+      "additions": [
+        {
+          "addition_name": "Chicken",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Beef",
+          "addition_price": "$3.00"
+        },
+        {
+          "addition_name": "Paprika",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Cheese",
+          "addition_price": "$3.00"
+        },
+        {
+          "addition_name": "Pickle",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Angus Beef",
+          "addition_price": "$5.00"
+        },
+        {
+          "addition_name": "Potato",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Brocolli",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Onion",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Fries",
+          "addition_price": "$2.00"
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "name": "Broccoli",
+      "description": "Chicken, cheese, potato, onion, fries",
+      "price": "$9.00",
+      "size": [
+        {
+          "size_name": "Normal",
+          "size_weight": "200g",
+          "size_price": "$9.00"
+        },
+        {
+          "size_name": "Double",
+          "size_weight": "400g",
+          "size_price": "$12.00"
+        },
+        {
+          "size_name": "Small",
+          "size_weight": "100g",
+          "size_price": "$5.00"
+        }
+      ],
+      "additions": [
+        {
+          "addition_name": "Chicken",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Beef",
+          "addition_price": "$3.00"
+        },
+        {
+          "addition_name": "Paprika",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Cheese",
+          "addition_price": "$3.00"
+        },
+        {
+          "addition_name": "Pickle",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Angus Beef",
+          "addition_price": "$5.00"
+        },
+        {
+          "addition_name": "Potato",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Brocolli",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Onion",
+          "addition_price": "$2.00"
+        },
+        {
+          "addition_name": "Fries",
+          "addition_price": "$2.00"
+        }
+      ]
+    }, 
+    {
+        "id" : 3,
+        "name": "Chicken Burger",
+        "description": "Chicken, cheese, potato, onion, fries",
+        "price": "$14.00",
+        "additions": [
+          {
+            "addition_name": "Chicken",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Beef",
+            "addition_price": "$3.00"
+          },
+          {
+            "addition_name": "Paprika",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Cheese",
+            "addition_price": "$3.00"
+          },
+          {
+            "addition_name": "Pickle",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Angus Beef",
+            "addition_price": "$5.00"
+          },
+          {
+            "addition_name": "Potato",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Brocolli",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Onion",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Fries",
+            "addition_price": "$2.00"
+          }
+        ]
+    },
+    {
+        "id":4,
+        "name": "Creste di Galli",
+        "description": "Pasta, cheese, potato, onion, fries",
+        "price": "$13.00",
+        "modal_description" : "Cheese, Champignon Mushroom",
+        "size": [
+          {
+            "size_name": "Small",
+            "size_weight": "30cm",
+            "size_price": "$13.00"
+          },
+          {
+            "size_name": "Normal",
+            "size_weight": "40cm",
+            "size_price": "$16.00"
+          },
+          {
+            "size_name": "Large",
+            "size_weight": "50cm",
+            "size_price": "$21.00"
+          }
+        ],
+        "additions": [
+          {
+            "addition_name": "Prosciutto",
+            "addition_price": "$3.00"
+          },
+          {
+            "addition_name": "Champignon Mushroom",
+            "addition_price": "$5.00"
+          },
+          {
+            "addition_name": "Salami",
+            "addition_price": "$3.00"
+          },
+          {
+            "addition_name": "Paprika",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Cheese",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Chicken",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Beef",
+            "addition_price": "$3.00"
+          },
+          {
+            "addition_name": "Potato",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Brocolli",
+            "addition_price": "$2.00"
+          },
+          {
+            "addition_name": "Onion",
+            "addition_price": "$2.00"
+          }
+        ]
+    }
+  ]

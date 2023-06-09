@@ -1,0 +1,118 @@
+.about_page .container{
+    /* max-width: 1280px; */
+}
+/* about_page */
+.about_page{
+    padding: 50px 0;
+}
+.page_title{
+    padding-bottom: 70px;
+}
+.about_page .page_title_h1{
+    font-size : 4.75rem;
+    font-weight: 100;
+}.about_page .page_title_p{
+    font-family :   Georgia, 'Times New Roman', Times, serif;
+    color: #a4a7a9;font-size: 18px;
+}
+/* about_main */
+.about_main{
+    background-image: url('../../images/About/about_back_img.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* about_title */
+.about_title h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.about_title h2::selection{
+    background-color: #EBD072;color: #fff;
+}
+/* about_rate */
+.about_rate i{
+    color: #EBD072;margin-right: 10px;
+}
+.about_rate i:last-child{color: #a4a7a9;}
+/* about_content */
+.about_content{
+    width: 480px;
+    padding: 80px 20px 0 20px;
+}
+/* about_paragraph */
+.about_paragraph{
+    margin-bottom: 25px;
+}
+.about_paragraph p{
+    font-family: Helvetica Neue,Raleway,sans-serif;
+    color: #383c40;
+    font-size: 17px;
+}.about_paragraph p:last-child{
+    font-size: 15px;
+}
+/* about_button */
+.about_btn{
+    border: 2px solid #DDAE71;
+    padding: 15px 30px;
+}
+/* about_sign */
+.about_sign h4{
+    font-weight: 100;
+    color: #595a5a;
+}
+.about_sign h4::selection{
+    background-color: #EBD072;color: #fff;
+}
+.about_button span{
+    color: #383c40;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 550;
+}
+/* about_btn */
+.about_button button {
+    border: 2px solid #DDAE71;
+    outline: none;
+    padding: 15px 25px;
+    position: relative;
+}
+.about_button .about_btn span {
+    color: #4f5052 !important;
+    position: relative;
+}
+.about_button .about_btn::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #DDAE71;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+.about_btn:hover::before {
+    top: 0;
+}
+.about_btn:hover span {
+    z-index: 5 !important;color: #fff !important
+}
+
+
+/* Responsive */
+@media screen and (max-width : 992px){
+    .about_main{
+        background-position: -40%;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .about_content{
+        margin: auto;
+    }
+    .about_main{
+        background-image: none;
+        text-align: center;  
+    }
+}

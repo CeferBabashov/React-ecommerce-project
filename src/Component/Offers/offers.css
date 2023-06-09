@@ -1,0 +1,80 @@
+.offers .offers_top_content h4{
+    color: #89898a !important;
+}
+.offers_top_content h4::selection{
+    background-color: #EBD072;
+    color: #fff;
+}
+.offers_item{
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+}
+.offers_item_content {
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 120px !important;
+    /* right: 0; */
+    right: 50px;
+    margin-top: 40px;
+    padding: 40px;
+}
+.container{
+    padding: 0 !important;
+    max-width: 1280px;
+}
+.offers_section{
+    background-color: #F3F4F4;
+    padding-bottom: 30px !important;
+    position: relative;
+}
+.offers_section .offers_item_bottom{
+    margin-top: 40px;
+}
+.offers_item_bottom div{
+    display: flex;
+    align-items: baseline;
+}
+.offers_section .offers_item_bottom div p{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.offers_section .offers_item .offers_check_icon{
+    color: green;
+    font-size: 25px;
+}
+.offers_section .offers_item .offers_x_icon{
+    color :#6c6e6e;
+    font-size: 25px;
+}
+.offers_section h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+.offers_item_content_span{
+    font-size: 18px;
+    color: #6c6e6e;
+}
+@media screen and (max-width : 1200px){
+   .offers_section .offers_item_content{
+        width: 50% !important;
+        position: absolute !important;
+        right: 0 !important;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .offers_section  .offers_item_content{
+        width: 90% !important;
+        margin-top: -150px;
+        position: relative !important;
+        transform: translateX(70px) !important
+    }
+    .offers_section .offers_item{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
